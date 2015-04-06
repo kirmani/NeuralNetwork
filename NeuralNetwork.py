@@ -8,9 +8,6 @@ import math
 import random
 import string
 
-import urllib2
-from bs4 import BeautifulSoup
-
 random.seed(0)
 
 # calculate a random number where:  a <= rand < b
@@ -160,7 +157,7 @@ def demo():
     # create a network with two input, two hidden layers of two nodes, and one output nodes
     n = NN(2, [2, 2], 1)
     # train it with some patterns
-    n.train(pat, 1000)
+    n.train(pat, 10000)
     # # test it
     n.test(pat)
 

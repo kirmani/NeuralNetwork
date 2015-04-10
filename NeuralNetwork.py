@@ -2,7 +2,7 @@
 # 
 # Written in Python.  See http://www.python.org/
 # Placed in the public domain.
-# Neil Schemenauer <nas@arctrix.com>
+# Sean Kirmani <sean@kirmani.io>
 
 import math
 import random
